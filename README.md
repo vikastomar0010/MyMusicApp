@@ -28,7 +28,8 @@ Users can sign up, upload songs, create playlists, and enjoy seamless music play
 - JWT Authentication  
 
 **Other:**
-- Cloudinary for media storage  
+- Cloudinary for media storage
+- Vercel for deployment  
 ---
 
 ## 📦 Installation
