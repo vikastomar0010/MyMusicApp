@@ -93,8 +93,9 @@ const HomeComponent = () => {
             {/* Sidebar */}
             <div className="h-full w-1/5 bg-black flex flex-col justify-between pb-12">
                 <div>
-                <div className="logoDiv p-6">
-                    <Icon icon="logos:spotify" width="110"/>
+                <div className="logoDiv flex flex-col items-center p-6">
+                <Icon icon="emojione-v1:music-ascend" width="80" />
+                <h1 className="mt-2 text-2xl  text-white">MyMusic</h1>
                 </div>
 
                 <div className="py-5">

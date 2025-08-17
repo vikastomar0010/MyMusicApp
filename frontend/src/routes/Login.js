@@ -43,11 +43,12 @@ const LoginComponent = () => {
     };
 
     return <div className="w-full h-full flex flex-col items-center">
-        <div className="logo p-6 border-b border-solid border-gray-300 w-full flex justify-center">
-            <Icon icon="logos:spotify" width="170"/>
-        </div>
+        <div className="logoDiv flex flex-col items-center p-6">
+            <Icon icon="emojione-v1:music-ascend" width="80" />
+            <h1 className="mt-2 text-2xl  text-black">MyMusic</h1>
+            </div>
         <div className="inputRegion w-1/3 py-7 flex flex-col items-center justify-center">
-            <div className="font-bold pb-6">To continue, log in to Spotify.</div>
+            <div className="font-bold pb-6">To continue, log in to MyMusic.</div>
 
             <div className={`${loginError ? "error-message-visible" : "error-message-hidden"}`}>
                 Email or password is incorrect, Please try again.
@@ -89,7 +90,7 @@ const LoginComponent = () => {
                 className="w-full border border-gray-500 
                 flex items-center justify-center py-4
                 font-bold text-gray-500 rounded-full">
-                <Link to="/signup">SIGN UP FOR SPOTIFY</Link>
+                <Link to="/signup">SIGN UP FOR MyMusic</Link>
             </div>
         </div>
     </div>

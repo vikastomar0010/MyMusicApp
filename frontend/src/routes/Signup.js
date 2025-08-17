@@ -40,8 +40,9 @@ const SignupComponent = () => {
     };
 
     return <div className="w-full h-full flex flex-col items-center">
-        <div className="logo p-6 border-b border-solid border-gray-300 w-full flex justify-center">
-            <Icon icon="logos:spotify" width="170"/>
+        <div className="logoDiv flex flex-col items-center p-6">
+            <Icon icon="emojione-v1:music-ascend" width="80" />
+            <h1 className="mt-2 text-2xl  text-white">MyMusic</h1>
         </div>
         <div className="inputRegion py-7 flex flex-col items-center justify-center">
             {/* Will contain 2 input fields (email and password) 
